@@ -39,6 +39,10 @@ body {
     border-radius: 5px;
     font-size: 14px;
 }
+
+.nav-col {
+    width: 50%;
+}
 /* FINE COMMON */
 
 /* HEADER */
@@ -46,6 +50,10 @@ body {
 /* Per tutti gli <ul>, <li> e <a> nelle sezioni nav */
 nav ul {
     list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
 }
 
 .nav-link {
@@ -65,23 +73,18 @@ nav ul {
     padding: 25px 0;
 }
 
-.nav-top .col {
-    width: 45%;
-    margin: 0 2.5%;
-}
-
 /* Nav Top Left */
 .menu-top-left li:first-child {
-    display: inline-block;
     padding-right: 15px;
 }
 
 .menu-top-left li:last-child {
-    display: inline-block;
     padding-left: 15px;
 }
 
-.menu-top-left .nav-link i {
+
+.menu-top-left .nav-link span {
+    display: inline-block;
     padding: 0 5px;
 }
 
@@ -92,7 +95,6 @@ nav ul {
 
 /* Nav Top Right */
 .menu-top-right li {
-    display: inline-block;
     padding-left: 20px;
 }
 
@@ -115,7 +117,17 @@ nav ul {
 
 /* Fine Nav Top */
 
+/* Nav Bottom */
+.nav-bottom .container {
+    padding: 25px 0;
+}
 
+.menu-bottom-right li,
+.menu-bottom-right .nav-link i  {
+    padding-left: 15px;
+    line-height: 30px;
+}
+/* Fine Nav Bottom */
 
 
 /* FINE HEADER */
