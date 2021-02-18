@@ -46,9 +46,13 @@ body {
     width: 50%;
 }
 
+.padding-bottom-20{
+    padding-bottom: 20px;
+}
 .padding-bottom-30 {
     padding-bottom: 30px;
 }
+
 
 .padding-block-30 {
     padding: 30px 0;
@@ -74,6 +78,12 @@ body {
     font-size: 14px;
     font-weight: 500;
     line-height: 30px;
+}
+
+
+/* Layout a 4 Colonne */
+.four-col {
+    width: 25%;
 }
 
 /* FINE COMMON */
@@ -326,11 +336,9 @@ nav li {
     background-color: #00a9b8;
 }
 
-
 /* Learn and Grow */
-
 .info .container {
-    padding: 60px 0;
+    padding: 60px 0 40px 0;
 }
 
 .info .learn-and-grow {
@@ -340,12 +348,73 @@ nav li {
 .learn-and-grow h2 {
     font-size: 32px;
 }
-
 /* Fine Learn and Grow */
 
+/* Statistiche su HubSpot */
+.stats .col {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding: 25px;
+}
 
+.stats .col:last-child {
+    border-right: none;
+}
+
+.stats .bottom-row .col {
+    border-bottom: none;
+}
+
+
+.stats .numbers {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.numbers span {
+    font-size: 32px;
+    font-weight: 400;
+}
+/* Fine Statistiche su HubSpot */
 /* FINE SEZIONE INFO */
 
+/* SEZIONE COSTUMERS */
+.costumers .col.left {
+    width: 40%;
+}
+
+.costumers .col.right {
+    width: 60%;
+    padding-top: 20px;
+}
+
+.costumers .container {
+    width: 65%;
+}
+
+.costumers h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.costumers .costumer-logos {
+    text-align: right;
+}
+
+.costumers .costumer-logos img {
+    width: 20%;
+    margin: 10px 10px 10px 0;
+    vertical-align: middle;
+}
+
+.costumers .costumer-logos:first-child img {
+    margin-top: 0;
+}
+
+
+/* FINE SEZIONE COSTUMERS */
 
 
 
