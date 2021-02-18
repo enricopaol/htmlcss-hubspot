@@ -54,6 +54,10 @@ body {
     padding: 30px 0;
 }
 
+.padding-block-40 {
+    padding: 40px 0;
+}
+
 .blue-text {
     color: #334a5c;
     font-size: 14px;
@@ -236,6 +240,7 @@ nav li {
 
 .cta ul {
     list-style-type: none;
+    text-align: left;
 }
 
 .cta li i {
@@ -276,6 +281,34 @@ nav li {
     display: inline-block;
     padding-right: 15px;
 }
+
+/* CTA Verticali */
+.cta.vertical {
+    width: 30%;
+    padding: 25px 30px;
+    text-align: center;
+}
+
+.cta.vertical:nth-child(2) {
+    margin: 0 5%;
+}
+
+.cta.vertical p {
+    margin-bottom: 60px;
+}
+
+.cta.vertical .divider {
+    height: 2px;
+    background-color: #334a5c;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.cta.vertical li {
+    line-height: 20px;
+}
+/* Fine CTA Verticali */
 
 
 
