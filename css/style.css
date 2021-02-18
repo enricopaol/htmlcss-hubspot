@@ -149,9 +149,8 @@ nav li {
     height: 550px;
     background-image: url(../img/jumbotron.png);
     background-size: cover;
-    background-position: 100% 26%;
-    background-repeat: no-repeat;
-  
+    background-position: 100% 25%;
+    background-repeat: no-repeat; 
 }
 
 .jumbotron .teaser{
@@ -176,5 +175,12 @@ nav li {
 }
 /* Fine Jumbotron */
 
+.bg-cyan {
+    height: 70px;
+    background-color: #afebe4;
+    border-bottom: 3px solid #33475b;
+    border-top: 3px solid #33475b;
+
+}
 
 /* FINE HEADER */
