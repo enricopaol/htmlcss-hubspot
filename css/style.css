@@ -211,4 +211,77 @@ nav li {
     height: 200px;
 }
 /* Fine Sezione Presentazione */
+
+/* Sezione Integrazioni e CTA*/
+.integrations{
+    background-color: #f4f9fd;
+}
+
+.cta {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ebf0f5;
+}
+
+.cta img {
+    height: 100px;
+    width: 100%;
+    margin-bottom:30px;
+}
+
+.cta h3 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.cta ul {
+    list-style-type: none;
+}
+
+.cta li i {
+    padding-right: 10px;
+    color: #fe775a;
+}
+
+
+/* CTA Orizzontale */
+.cta.horizontal {
+    padding: 60px 100px;
+}
+
+.cta.horizontal .col:first-child{
+    width: 30%;
+    text-align: center;
+}
+
+.cta.horizontal .col:last-child{
+    width: 70%;
+    padding-left: 30px;
+}
+.cta.horizontal h4 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cta.horizontal .divider {
+    height: 2px;
+    background-color: #334a5c;
+    display: inline-block;
+    width: 66%;
+    vertical-align: middle;
+    margin-left: 28px;
+}
+
+.cta.cta.horizontal li{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+
+
+
+
+
+/* Fine CTA Orizzontale */
+/* Fine sezione Integrazioni e CTA*/
 /* FINE MAIN */
