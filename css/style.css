@@ -42,6 +42,10 @@ body {
     font-weight: 500;
 }
 
+.button:hover {
+    background-color: #ffbcac;
+}
+
 .nav-col {
     width: 50%;
 }
@@ -80,6 +84,13 @@ body {
     line-height: 30px;
 }
 
+.light-blue-text {
+    color: #cbd6e2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
 .subtitle {
     font-size: 12px;
     margin-top: 30px;
@@ -108,6 +119,12 @@ header nav li {
     font-size: 14px;
     color: #334a5c;
     font-weight: 500;
+}
+
+.nav-link:hover, 
+.nav-link:hover span {
+    text-decoration: underline;
+    color: #007a8c;
 }
 
 /* Nav Top */
@@ -439,14 +456,23 @@ footer {
    background-color: #32495b;
 }
 
+footer a {
+    text-decoration: none;
+    color: #cbd6e2;
+}
+
+footer a:hover{
+    color: #65d1de;
+    text-decoration: underline;
+}
+
+footer li {
+    list-style-type: none;
+}
+
 /* SEZIONE FOOTER NAV */
 .footer-nav li {
     line-height: 30px;
-}
-
-.footer-nav a {
-    color: #cbd6e2;
-    text-decoration: none;
 }
 
 .footer-nav .divider {
@@ -471,12 +497,17 @@ a.footer-button {
     border-radius: 5px;
 }
 
+a.footer-button:hover {
+    background-color: #65d1de;
+    color: #32495b;
+    text-decoration: none;
+}
+
 .footer-btn-container {
     margin: 10px 0;
 }
 
 .footer-icons i {
-    color: #cbd6e2;
     padding-right: 20px;
     margin: 10px 0;
 }
@@ -493,6 +524,21 @@ a.footer-button {
 }
 /* Fine Footer Nav Bottom */
 /* FINE SEZIONE FOOTER NAV */
+
+/* SEZIONE LEGAL STUFF */
+.legal-stuff .col {
+    width: 50%;
+}
+
+.legal-stuff .col:last-child {
+    text-align: right;
+}
+
+.legal-stuff li {
+    display: inline-block;
+    padding-left: 30px;
+}
+/* FINE SEZIONE LEGAL STUFF */
 
 
 
