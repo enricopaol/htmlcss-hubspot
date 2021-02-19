@@ -94,12 +94,12 @@ body {
 
 /* HEADER */
 
-/* Per tutti gli <ul>, <li> e <a> nelle sezioni nav */
+/* Per tutti gli <ul>, <li> e <a> nelle sezioni nav dell'header */
 nav ul {
     list-style-type: none;
 }
 
-nav li {
+header nav li {
     display: inline-block;
 }
 
@@ -435,6 +435,67 @@ nav li {
 /* FINE SEZIONE START GROWING */
 
 /* FOOTER */
+footer {
+   background-color: #32495b;
+}
+
+/* SEZIONE FOOTER NAV */
+.footer-nav li {
+    line-height: 30px;
+}
+
+.footer-nav a {
+    color: #cbd6e2;
+    text-decoration: none;
+}
+
+.footer-nav .divider {
+    height: 2px;
+    background-color: #cbd6e2;
+}
+
+/* Footer Nav Top */
+.footer-nav .top-row {
+    padding-bottom: 60px;
+}
+
+.footer-nav h4 {
+    font-weight: bold;
+}
+
+a.footer-button {
+    padding: 10px 12px; 
+    background-color: #cbd6e2;
+    color: #32495b;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.footer-btn-container {
+    margin: 10px 0;
+}
+
+.footer-icons i {
+    color: #cbd6e2;
+    padding-right: 20px;
+    margin: 10px 0;
+}
+/* Fine Footer Nav Top */
+
+/* Footer Nav Bottom */
+.footer-nav .bottom-row{
+    text-align: center;
+}
+
+.footer-nav .bottom-row li {
+    display: inline-block;
+    padding: 0 15px;
+}
+/* Fine Footer Nav Bottom */
+/* FINE SEZIONE FOOTER NAV */
+
+
+
 /* FINE FOOTER */
 
 
