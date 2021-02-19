@@ -104,7 +104,6 @@ body {
 /* FINE COMMON */
 
 /* HEADER */
-
 /* Per tutti gli <ul>, <li> e <a> nelle sezioni nav dell'header */
 nav ul {
     list-style-type: none;
@@ -131,6 +130,10 @@ header nav li {
 .nav-top {
     background-color: #f4f9fd;
     border-bottom: 1px solid #334a5c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1;
 }
 
 .nav-top .container {
@@ -185,6 +188,10 @@ header nav li {
 /* Fine Nav Top */
 
 /* Nav Bottom */
+.nav-bottom {
+    margin-top: 71px;
+}
+
 .nav-bottom .container {
     padding: 20px 0;
 }
@@ -258,7 +265,7 @@ header nav li {
 .cta {
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px #ebf0f5;
+    box-shadow: 0 0 11px #eaf0f6;
 }
 
 .cta img {
@@ -349,7 +356,9 @@ header nav li {
 /* SEZIONE INFO */
 .info {
     color: white;
-    background-color: #00a9b8;
+    /* background-color: #00a9b8; */
+    background: rgb(0,165,187);
+    background: linear-gradient(54deg, rgba(0,165,187,1) 20%, rgba(0,178,175,1) 47%, rgba(0,187,168,1) 89%);
 }
 
 /* Learn and Grow */
@@ -450,6 +459,7 @@ header nav li {
     bottom:30px;
 }
 /* FINE SEZIONE START GROWING */
+/* FINE MAIN */
 
 /* FOOTER */
 footer {
@@ -539,12 +549,4 @@ a.footer-button:hover {
     padding-left: 30px;
 }
 /* FINE SEZIONE LEGAL STUFF */
-
-
-
 /* FINE FOOTER */
-
-
-
-
-/* FINE MAIN */
